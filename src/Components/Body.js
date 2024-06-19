@@ -3,7 +3,7 @@ import Browse from './Browse';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 const Body = () => {
-
+  
    const appRouter = createBrowserRouter([
     {
         path: "/",
@@ -13,7 +13,8 @@ const Body = () => {
         path: "/Browse",
         element: <Browse/>
     }
-   ])
+   ]);
+  
 
   return (
     <div>
