@@ -9,11 +9,7 @@ const MainContainer = () => {
     if(!movies) return;
 
     const mainMovie = movies[0];
-<<<<<<< HEAD
     
-=======
-    console.log(mainMovie);
->>>>>>> f5cdcd4b947110f506314a8bb156d7b036acfb1b
 
     const {original_title, overview, id} = mainMovie;
 

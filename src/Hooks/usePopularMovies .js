@@ -15,11 +15,7 @@ const getPopularMovies = async() =>{
     );
 
        const json = await data.json();
-<<<<<<< HEAD
        
-=======
-       console.log(json.results);
->>>>>>> f5cdcd4b947110f506314a8bb156d7b036acfb1b
        dispatch(addPopularMovies(json.results));
 
 };

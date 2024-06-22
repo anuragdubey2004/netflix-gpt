@@ -5,9 +5,11 @@ import { BG_LOGO } from '../Utils/constants';
 
 const GptSearch = () => {
   return (
-    <div>
-        <div className='absolute -z-10'>
-        <img src={BG_LOGO}
+  
+    <div> 
+    <div className='absolute -z-10'>
+        <img
+              src={BG_LOGO}
               alt= "Bg-logo"
          />
         </div>
@@ -15,6 +17,7 @@ const GptSearch = () => {
           <GptMovieSuggestions/>
 
     </div>
+   
   )
 }
 

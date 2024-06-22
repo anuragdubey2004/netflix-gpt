@@ -8,10 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.19",
     "firebase": "^10.12.2",
-<<<<<<< HEAD
     "openai": "^4.52.0",
-=======
->>>>>>> f5cdcd4b947110f506314a8bb156d7b036acfb1b
     "postcss": "^8.4.38",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
