@@ -4,15 +4,22 @@ import { useSelector, useDispatch  } from "react-redux";
 import { useEffect } from 'react';
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import {addUser, removeUser} from '../Utils/userSlice';
+<<<<<<< HEAD
 import { LOGO_URL, SUPPORTED_LANGUAGES } from '../Utils/constants';
 import { toggleGptSearchView } from '../Utils/GptSlice';
 import { changeLanguages } from '../Utils/configSlice';
+=======
+import { LOGO_URL } from '../Utils/constants';
+>>>>>>> f5cdcd4b947110f506314a8bb156d7b036acfb1b
 
 const Header = () => { 
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const user = useSelector(store => store.user);
+<<<<<<< HEAD
   const showGptSearch = useSelector((store)=> store.gpt.showGptSearch);
+=======
+>>>>>>> f5cdcd4b947110f506314a8bb156d7b036acfb1b
 
   const handleSignOut =()=> {
     signOut(auth)
@@ -22,9 +29,13 @@ const Header = () => {
     .catch((error) => {
 
     });
+<<<<<<< HEAD
   };
 
 
+=======
+  }
+>>>>>>> f5cdcd4b947110f506314a8bb156d7b036acfb1b
 
   useEffect(()=>{
 
@@ -49,6 +60,7 @@ const Header = () => {
     // unsubscribe when component unmounts
     return(() => unsubscribe());
    },[]);
+<<<<<<< HEAD
 
    const handleGptSearchClick = ()=> {
     // Toggle Button gpt search btn
@@ -59,6 +71,8 @@ const Header = () => {
      dispatch(changeLanguages(e.target.value));
 
    };
+=======
+>>>>>>> f5cdcd4b947110f506314a8bb156d7b036acfb1b
 
   return (
     <div className=" bg-gradient-to-b from-black absolute w-screen px-4 py-2 mx-0 my-0 z-10 flex justify-between">
@@ -68,6 +82,7 @@ const Header = () => {
           alt ="logo"
         />
         {user && (
+<<<<<<< HEAD
 
           <div className="flex p-2">
 
@@ -88,6 +103,10 @@ const Header = () => {
                  {showGptSearch ? "Home" : "GPT Search"}
               </button>
           <img className="mx-3 w-14 h-14" alt= "user"
+=======
+          <div className="flex p-2">
+          <img className="mx-2 w-16 h-16" alt= "user"
+>>>>>>> f5cdcd4b947110f506314a8bb156d7b036acfb1b
                src= {user?.photoURL}
                />
           <button className=" text-white font-bold bg-red-700 rounded-lg w-20 h-10 cursor-pointer mr-6 pr-2 "
