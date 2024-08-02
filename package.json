@@ -1,8 +1,9 @@
 {
+  "homepage": "https://anuragdubey2004.github.io/netflix-gpt",
   "name": "netflix-gpt",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anuragdubey2004.github.io/netflix-gpt",
+  
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
