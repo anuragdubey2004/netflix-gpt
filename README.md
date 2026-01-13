@@ -1,41 +1,23 @@
-### Netflix-Gpt ###
+GPT-Stream
+Deployed using Firebase - ProjectLink
+SignIn/SighUp Page -
+<img width="1895" height="958" alt="image" src="https://github.com/user-attachments/assets/289726ed-fde4-4848-9d9b-acdec4cdc59b" />
 
- - create react app
- - tailwindCSS config
- - Header
- - Routing of app
- - Login form
- - Sign Up form 
- - Form validation
- - useRef Hook
- - Firebase Setup
- - Deploying ourapp to production
- - Create sign Up  user accont
- - Implement Sign in User Api
- - Created redux Store with USer slice
- - Implemented Sign Out 
- - Update Profile
- - BugFix: Sign Up user displayNameand profile update
- - BugFix: if the user is not logged in redirect /browse to login andvicce vice-versa
- - Unsubscribe to the onAuthStateChanged callback //unhiegienic method
- - Added hardcoded values in constants file 
- - registered tmdb api & create an app & get access token 
- - Get data from tmdb now playing movies list API
+image
+
+Browse Page -
+<img width="1920" height="952" alt="image" src="https://github.com/user-attachments/assets/0a1570db-ee5d-41b8-b6da-bdf0e97db645" />
+<img width="1909" height="906" alt="image" src="https://github.com/user-attachments/assets/0e8928aa-3453-4bba-b4bf-0b558efe2286" />
 
 
- # Features
- - Login/SignUp
-    - sing In/ sign up form 
-    - redirect to Browser Page
+image image
 
- - Browser (after authentication)
-    - header
-    - Main movie
-        - Tralier in background
-        -Title & Descriptipm
-        -Movie Suggestions
-          - Movie lists * N
+GPT Search Page and Language Change Functionality -
+<img width="1920" height="903" alt="image" src="https://github.com/user-attachments/assets/7d7e2c0f-cfab-42c1-a578-bd403545c782" />
 
- - NetflixGPT
-   - search bar
-   - Movie Suggestion         
+image
+
+GPT Search Movie Recommendations -
+<img width="1897" height="896" alt="image" src="https://github.com/user-attachments/assets/cd20f3e4-7e58-4057-a3b3-6f205c238f01" />
+
+image
